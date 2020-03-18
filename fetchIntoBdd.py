@@ -29,7 +29,7 @@ except ImportError:
     import simplejson as json
 
 # We use the file saved from last step as example
-tweets_filename = 'test_data_twitter.txt'
+tweets_filename = 'data_twitter_search.txt'
 tweets_file = open(tweets_filename, "r")
 
 print(tweets_file)
